@@ -1,0 +1,156 @@
+/* start about */
+section {
+  padding: 0 80px;
+  height: calc(80vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Changa", sans-serif;
+  position: relative;
+  margin-bottom: 460px;
+}
+section .right {
+  width: 700px;
+  margin-top: 200px;
+}
+section .right h1 {
+  font-size: 80px;
+  font-family: "Changa", sans-serif;
+}
+section .right h3 {
+  font-size: 32px;
+  font-family: "Changa", sans-serif;
+  font-weight: 10;
+  color: #0b43f2;
+}
+section .right p {
+  font-size: 20px;
+  font-family: "Changa", sans-serif;
+  font-weight: 10;
+  color: #6c6c6c;
+  padding: 20px 0 0 0;
+}
+section .right .btn {
+  font-size: 24px;
+  font-family: "Changa", sans-serif;
+  width: 300px;
+  margin-top: 40px;
+  text-align: center;
+}
+section .right button:hover {
+  color: #0b43f2;
+  background: #04227c;
+  border: 1px solid #0b43f2;
+}
+section .right button a {
+  color: #ffffff;
+  font-family: "Changa", sans-serif;
+  font-weight: 800;
+}
+span {
+  color: #0b43f2;
+  font-family: "Changa", sans-serif;
+}
+section img {
+  width: 700px;
+  margin-top: 500px;
+}
+section .imges {
+  width: 500px;
+  margin-top: 600px;
+  position: absolute;
+  bottom: 130px;
+  right: 100px;
+}
+@media (max-width: 991px) {
+  section {
+    min-height: calc(80vh - 80px);
+    height: auto;
+    flex-direction: column;
+  }
+  section img {
+    width: 100%;
+    margin-top: 0;
+    margin-top: 20px;
+  }
+  section {
+    padding: 0 0;
+    margin-bottom: 0px;
+  }
+  section .right {
+    margin-top: 0px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  section .imges {
+    top: -25%;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    margin-top: 0;
+  }
+}
+@media (max-width: 676px) {
+  section .imges {
+    display: none;
+  }
+}
+.about-section {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.about-section h1 {
+  font-family: "Changa", sans-serif;
+  margin-bottom: 100px;
+}
+.services-icon-one {
+  display: flex;
+  grid-gap: 290px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.services-icon-one h2,
+p {
+  font-family: "Changa", sans-serif;
+}
+.services-icon-two {
+  display: flex;
+  grid-gap: 290px;
+  align-items: center;
+  justify-content: center;
+}
+.services-icon-two h2,
+p {
+  font-family: "Changa", sans-serif;
+}
+@media (max-width: 991px) {
+  .services-icon-one {
+    flex-direction: column;
+    grid-gap: 100px;
+    margin-bottom: 100px;
+  }
+  .services-icon-two {
+    flex-direction: column;
+    grid-gap: 100px;
+  }
+}
+@media (max-width: 767px) {
+}
+.about-section .cir {
+  position: absolute;
+  right: 0;
+}
+.about-section .cir1 {
+  position: absolute;
+  left: 0;
+  top: 520px;
+}
+@media (max-width: 767px) {
+  .about-section .cir,
+  .about-section .cir1 {
+    display: none;
+  }
+}

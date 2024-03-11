@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="imgs/logo-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.19/build/css/intlTelInput.css"
+    />
+  </head>
+  <body dir="rtl">
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="imgs/logo.png" alt="Logo" width="150" />
+        </div>
+        <i class="fa-solid fa-bars icon fa-2xl" id="header-icon"></i>
+        <div class="nav" id="header-nav">
+          <ul class="links">
+            <li>
+              <a href="index.html">الصفحة الرئيسية</a>
+            </li>
+            <li>
+              <a href="about.html" class="active">من نحن</a>
+            </li>
+            <li>
+              <a href="services.html">خدماتنا</a>
+            </li>
+          </ul>
+          <a class="btn" href="#contact">تواصل معنا</a>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="right">
+        <h1>من <span>نحن</span></h1>
+        <h3>Southwest for Insurance Services</h3>
+        <h3>لمستقبل آمن ومضمون</h3>
+        <p>
+          هي شركة تأمين سعودية ناشئة تأسست في جنوب المملكة العربية السعودية.
+          نهدف إلى توفير خدمات تأمينية مُبتكرة تلبي احتياجات العملاء على اختلاف
+          مستوياتهم. نؤمن بأهمية التأمين في توفير الحماية المالية للأفراد
+          والشركات ونحرص على تقديم خدماتنا بأعلى معايير الجودة والاحترافية.
+        </p>
+        <a href="services.html" class="btn"> خدماتنا </a>
+      </div>
+      <img src="imgs/Group 406.svg" alt="" srcset="" />
+      <img src="imgs/logo transparent background 3.svg" alt="" class="imges" />
+    </section>
+    <div class="about-section">
+      <img src="imgs/eli13.svg" alt="circle" class="cir" />
+      <h1>لماذا تختار  <span>Southwest for Insurance Services</span></h1>
+      <div class="services-icon-one">
+        <div class="icon-one">
+          <img src="imgs/icon 1.svg" alt="" />
+          <h2>خدمات مُبتكرة</h2>
+          <p>
+            نُقدم خدمات وحلول تأمينية مُبتكرة <br />
+            تلبي احتياجات السوق المُتغيرة.
+          </p>
+        </div>
+        <div class="icon-two">
+          <img src="imgs/icon 2.svg" alt="" />
+          <h2>أسعار مُنافسة</h2>
+          <p>نُقدم أفضل الخدمات بأسعار مُنافسة</p>
+        </div>
+      </div>
+      <div class="services-icon-two">
+        <div class="icon-one">
+          <img src="imgs/icon 4.svg" alt="" />
+          <h2>خدمة عملاء ممتازة</h2>
+          <p>نُقدم خدمة عملاء مُمتازة 24/7</p>
+        </div>
+        <div class="icon-two">
+          <img src="imgs/icon 4.svg" alt="" />
+          <h2>شركة موثوقة</h2>
+          <p>نُعد شركة موثوقة تتمتع بسمعة طيبة في السوق</p>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="info">
+          <h2>سجل الآن</h2>
+          <p>للتواصل <span>معنا</span></p>
+        </div>
+        <div class="form">
+          <form>
+            <div>
+              <label for="name">الاسم</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="الاسم الاول و اسم العائلة"
+              />
+            </div>
+            <div>
+              <label for="phone">رقم الجوال</label>
+              <input type="tel" id="phone" dir="rtl" class="input-phone" />
+            </div>
+            <div>
+              <label for="email"> البريد الإلكتروني </label>
+              <input
+                type="email"
+                id="email"
+                placeholder="البريد الإلكتروني الخاص بالشركه"
+              />
+            </div>
+            <div>
+              <label for="address">العنوان</label>
+              <input type="text" id="address" placeholder="عنوان الشركة" />
+            </div>
+            <div>
+              <label for="jobTitle">المسمى الوظيفي</label>
+              <input type="text" id="jobTitle" placeholder="المسمى الوظيفي" />
+            </div>
+            <div>
+              <label for="insurance">نوع التأمين</label>
+              <select name="" id="insurance">
+                <option>نوع التأمين</option>
+                <option value="one">تأمين طبي</option>
+                <option value="two">تأمين مركبات</option>
+                <option value="three">تأمين ممتلكات</option>
+                <option value="four">تأمين حياة</option>
+                <option value="five">تأمين المشاريع</option>
+              </select>
+            </div>
+            <div id="one" style="display: none">
+              <label for="numberOfEmployees">عدد الموظفين</label>
+              <input
+                type="text"
+                id="numberOfEmployees"
+                placeholder="عدد الموظفين"
+              />
+            </div>
+            <div id="two" style="display: none">
+              <label for="numberOfVehicles">عدد المركبات</label>
+              <input
+                type="text"
+                id="numberOfVehicles"
+                placeholder="عدد المركبات"
+              />
+            </div>
+            <div id="three" style="display: none">
+              <label for="propertyValue">قيمة الممتلكات</label>
+              <input
+                type="text"
+                id="propertyValue"
+                placeholder="قيمة الممتلكات"
+              />
+            </div>
+            <div id="four" style="display: none">
+              <label for="projectValue">قيمة المشروع</label>
+              <input type="text" id="projectValue" placeholder="قيمة المشروع" />
+            </div>
+            <div id="five" style="display: none">
+              <label for="projectType">نوع المشروع</label>
+              <input type="text" id="projectType" placeholder="نوع المشروع" />
+            </div>
+          </form>
+          <div class="btn" id="send">سجل الآن</div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="cyclic1-p">
+          <div class="cyclic-1"></div>
+          <div class="logo">
+            <img src="imgs/logo-icon.png" alt="Logo" />
+          </div>
+        </div>
+        <div class="info">
+          <nav>
+            <img src="imgs/logo-white.png" alt="logo" />
+            <h3>لمستقبل آمن ومضمون</h3>
+            <div class="icons">
+              <a href="index.html" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-x-twitter fa-xl"></i>
+              </a>
+              <a href="index.html" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+              </a>
+            </div>
+          </nav>
+          <div>
+            <ul>
+              <li>
+                <a href="index.html">الصفحة الرئيسية</a>
+              </li>
+              <li>
+                <a href="about.html">من نحن</a>
+              </li>
+              <li>
+                <a href="services.html">خدامتـــنــــا</a>
+              </li>
+              <li>
+                <a href="#contact">تواصل معانا</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="cyclic2-p">
+          <div class="cyclic-2"></div>
+        </div>
+      </div>
+    </footer>
+    <div class="success snackbar" id="success">
+      <i class="fa-regular fa-square-check"></i>
+      تم ارسال البيانات بنجاح
+    </div>
+    <div class="faild snackbar" id="faild">
+      <i class="fa-solid fa-xmark"></i>يرجي كتابه جميع البيانات
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.19/build/js/intlTelInput.min.js"></script>
+    <script>
+      const input = document.querySelector("#phone");
+      window.intlTelInput(input, {
+        initialCountry: "sa",
+        onlyCountries: ["sa"],
+        utilsScript:
+          "https://cdn.jsdelivr.net/npm/intl-tel-input@19.2.19/build/js/utils.js",
+      });
+    </script>
+  </body>
+</html>
